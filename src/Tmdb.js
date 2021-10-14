@@ -38,7 +38,7 @@ const Tmdb = {
             {
                 slug: 'bests',
                 title: 'Melhor classificação',
-                itens: await basicFech(`/discover/movie/?certification_country=US&certification=R&sort_by=vote_average.desc&language=pt-BR&api_key=${API_KEY}`)
+                itens: await basicFech(`/discover/movie?certification_country=US&certification=R&sort_by=vote_average.desc&language=pt-BR&api_key=${API_KEY}`)
             },
             {
                 slug: 'originals',
