@@ -1,14 +1,13 @@
 import styled from "styled-components";
 
 
+
 export const LoginContainer = styled.div`
 height: 100vh; 
 display: flex;
 left: 0;
 justify-content:center;
 align-items:center;
-
- 
 
 input{
     height: 75px;
@@ -28,5 +27,14 @@ button{
     margin: 4px 2px;
     cursor: pointer;
 }
+
+.banner{
+    height: 500px;
+    width:700px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
 
 `;

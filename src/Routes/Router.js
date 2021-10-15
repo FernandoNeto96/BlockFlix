@@ -6,6 +6,8 @@ import Product from "../componets/Product/Product";
 //import DetalheProduto from "./page/DetalheProduto";
 import Carrinho from "../componets/Carrinho/Carrinho";
 import { Historico } from "../componets/Historico/Historico";
+//import SimpleAccordion from "../componets/Accordion/Accordion";
+
 
 
 export const rotas = [

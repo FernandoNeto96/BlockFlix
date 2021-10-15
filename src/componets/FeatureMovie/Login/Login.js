@@ -1,10 +1,14 @@
 import React from 'react';
+import './Login.css'
 import { LoginContainer } from './LoginStyle';
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
 import { useHistory } from 'react-router-dom';
 import { useContext } from 'react';
 import { MyContext } from '../../../Context/Context';
+import { Box, Container } from '@material-ui/core';
+import Paper from '@material-ui/core/Paper';
+
 
 const initialValues = {
   email: '',
@@ -35,6 +39,8 @@ export default function Login() {
 
   return (
     <LoginContainer>
+     
+      <Paper className="banner" elevation={3} >
       <div>
         <h1>Blockflix</h1>
 
@@ -85,6 +91,8 @@ export default function Login() {
           </Formik>
         </section>
       </div>
+      </Paper>
+     
     </LoginContainer>
   )
 }
